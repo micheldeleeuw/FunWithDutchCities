@@ -40,7 +40,7 @@ Interesting code 2: Scoping with <<-
 ========================================================
 - In the app I made use of session scoped variables. It makes the code less complex.
 - They are set in server.R, within the call to shinyServer(), but outside of the individual output functions.
-- On update use <<-instead of <-
+- On update inside the functions use <<-instead of <-
 - Example
 
 ```{r}
